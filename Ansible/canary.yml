@@ -1,6 +1,0 @@
----
-- name: Test connection to webservers
-  hosts: webservers
-  tasks:
-    - name: Ping the server
-      ping:
